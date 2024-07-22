@@ -1,0 +1,25 @@
+{
+  "name": "@tremho/basic-s3-actions",
+  "version": "1.0.0-pre-release.1",
+  "description": "",
+  "main": "build/S3Actions.js",
+  "types": "build/S3Actions.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "clean": "rm -fr build node_modules && npm install",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "s3",
+    "AWS",
+    "CRUD"
+  ],
+  "author": "tremho",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.341.0"
+  }
+}
