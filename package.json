@@ -1,6 +1,6 @@
 {
   "name": "@tremho/basic-s3-actions",
-  "version": "1.0.0-pre-release.1",
+  "version": "1.0.0",
   "description": "",
   "main": "build/S3Actions.js",
   "types": "build/S3Actions.d.ts",

@@ -112,4 +112,10 @@ import {s3Delete} from "./S3Actions";
 
 await s3Delete("BUCKET_NAME", "FirstObject")
 ```
+----
+
+[GitHub Repository](https://github.com/tremho/basic-s3-actions)
+
+Releases:
+1.0.0 - 7/22/24 - Initial release
 
