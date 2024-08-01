@@ -1,13 +1,13 @@
 {
   "name": "@tremho/basic-s3-actions",
-  "version": "1.0.0",
+  "version": "2.0.0-pre-release.3",
   "description": "",
   "main": "build/S3Actions.js",
   "types": "build/S3Actions.d.ts",
   "scripts": {
     "prepublish": "npm run build",
     "clean": "rm -fr build node_modules && npm install",
-    "build": "tsc",
+    "build": "tsc && cp logconfig.json build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,9 +17,13 @@
   ],
   "author": "tremho",
   "license": "MIT",
-  "devDependencies": {
-  },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.341.0"
+    "@aws-sdk/client-s3": "^3.529.0",
+    "@tremho/gen-logger": "^2.0.0-pre-release.3",
+    "fast-xml-parser": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^22.0.1"
   }
 }
