@@ -1,6 +1,24 @@
 # basic-s3-actions
 Basic s3 operations to create, read, delete and list S3 objects as json or text
 
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][npm-url]
+[![TotalDownloads][total-downloads-image]][npm-url]
+
+[build-status]: https://travis-ci.org/tremho/basic-s3-actions.svg?branch=master
+
+[build-url]: https://travis-ci.org/tremho/basic-s3-actions
+
+[npm-image]: http://img.shields.io/npm/v/basic-s3-actions.svg
+
+[npm-url]: https://npmjs.org/package/basic-s3-actions
+
+[downloads-image]: http://img.shields.io/npm/dm/ibasic-s3-actions.svg
+
+[total-downloads-image]: http://img.shields.io/npm/dt/basic-s3-actions.svg?label=total%20downloads
+
+----
+
 This is just a simple set of handy wrappers around basic use of s3 for simple purposes. 
 Namely, Javascript objects or text documents.
 
@@ -9,6 +27,8 @@ higher-level support above it.
 
 This does not directly support file-based upload/download as some other utilities do, although it could be easily used
 to create such features.
+
+----
 
 ## USAGE
 
@@ -119,6 +139,7 @@ await s3Delete("BUCKET_NAME", "FirstObject")
 Releases:
 1.0.0 - 7/22/24 - Initial release
 
+ 
  
  
  
